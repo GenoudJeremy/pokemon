@@ -39,12 +39,13 @@ On that tab, the client wants :
     - type (multiple) optionnal
     - generation 1 to 8 (multiple) optionnal
     - number of pokemon : 1 to 6 (by default 6)
-- he would like to see his team is defensive coverage on a right panel
+- he would like to see his team's defensive coverage on a right panel
 
 ### Useful links
 
 The customer is nice and provides you with a list of routes to use (and only these).
 - GET https://pokebuildapi.fr/api/v1/pokemon
+- GET https://pokebuildapi.fr/api/v1/pokemon/{pokemonId}
 - GET https://pokebuildapi.fr/api/v1/types
 - POST https://pokebuildapi.fr/api/v1/team/defensive-coverage/v2
     - input : { [pokemonId: number]: ""}[] (ex: [{1: ""}, {2: ""}])

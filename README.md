@@ -23,7 +23,7 @@ On that tab, the client wants :
     - generationId
     - image
 - a form search
-- a sort by default on pokedexId on columns (except image)
+- an editable sort (by default on pokedexId) on all columns (except image)
 
 When you click on a pokemon, you'll be redirect on page with specifics informations on that pokemon :
 - types

@@ -20,7 +20,7 @@ On that tab, the client wants :
 - a table of all Pokemon with that columns :
     - pokedexId
     - name
-    - generationId
+    - apiGeneration
     - image
 - a form search
 - an editable sort (by default on pokedexId) on all columns (except image)
